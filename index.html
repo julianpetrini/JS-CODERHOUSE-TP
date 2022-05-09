@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>JS ¦ Julian Petrini Jäggli</title>
+    <title>JS | Julian Petrini Jäggli</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
     <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
+
 <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/babar.png" alt="" width="30" height="24" class="d-inline-block align-text-top"></a>
+            <a class="navbar-brand" href="#"><img src="img/babar.png" alt="" width="30" height="24"
+                    class="d-inline-block align-text-top"></a>
             <a class="navbar-brand" href="#">Objetos Babar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -26,7 +31,7 @@
                         <a class="nav-link" href="#">Quienes somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Catalogo</a>
+                        <a class="nav-link" href="#catalogo">Catalogo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled">Contacto</a>
@@ -35,7 +40,7 @@
             </div>
         </div>
     </nav>
-      <!--HEADER-->
+    <!--HEADER-->
     <div class="p-5 text-center bg-image img-fondo">
         <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-danger">
@@ -44,49 +49,140 @@
             </div>
         </div>
     </div>
-<!--CAROUSEL-->
+    <!--CAROUSEL-->
     <div class="card-group">
         <div class="card">
-        <img src="img/10.png" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">"Sale Netflix"</h5>
-            <p class="card-text">Preparate para disfrutar de las mejores tardes y noches con el clima ideal para ser vos.</p>
-            <p class="card-text"><small class="text-muted">Promocion vigente hasta 11/22</small></p>
-        </div>
-        </div>
-        <div class="card">
-        <img src="img/11.png" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">"Clasico 1"</h5>
-            <p class="card-text">Home Office? Si, tenes todo en un instante. Resolve y administra tu momento de la mejor manera.</p>
-            <p class="card-text"><small class="text-muted">Promocion vigente hasta 10/22</small></p>
-        </div>
+            <img src="img/10.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">"Sale Netflix"</h5>
+                <p class="card-text">Preparate para disfrutar de las mejores tardes y noches con el clima ideal para ser
+                    vos.</p>
+                <p class="card-text"><small class="text-muted">Promocion vigente hasta 11/22</small></p>
+            </div>
         </div>
         <div class="card">
-        <img src="img/14.png" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">"Meow"</h5>
-            <p class="card-text">Nunca viste a tus gatos tan felices. Eso es porque estan disfrutando un hermoso momento junto a su cueva hecha 100% a mano mediante tecnicas tradicionales y mucho amor</p>
-            <p class="card-text"><small class="text-muted">Promocion vigente hasta 09/22</small></p>
+            <img src="img/11.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">"Clasico 1"</h5>
+                <p class="card-text">Home Office? Si, tenes todo en un instante. Resolve y administra tu momento de la
+                    mejor manera.</p>
+                <p class="card-text"><small class="text-muted">Promocion vigente hasta 10/22</small></p>
+            </div>
         </div>
+        <div class="card">
+            <img src="img/14.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">"Meow"</h5>
+                <p class="card-text">Nunca viste a tus gatos tan felices. Eso es porque estan disfrutando un hermoso
+                    momento junto a su cueva hecha 100% a mano mediante tecnicas tradicionales y mucho amor</p>
+                <p class="card-text"><small class="text-muted">Promocion vigente hasta 09/22</small></p>
+            </div>
         </div>
     </div>
-    
-<!-- Footer -->
+
+    <!--catalogo-->
+
+    <section class="section-products" id="catalogo">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="header">
+                        <h2>Catalogo</h2>
+                        <h3>Ultimos lanzamientos</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Mesa Ratona "Sale Netflix"</h3>
+                            <h4 class="product-old-price">$6000.99</h4>
+                            <h4 class="product-price">$4400.99</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-2" class="single-product">
+                        <div class="part-1">
+                            <span class="discount">15% off</span>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Mesa de arrime "Clasico 1"</h3>
+                            <h4 class="product-price">$2500</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-3" class="single-product">
+                        <div class="part-1">
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Parrilla "Todo es mejor los Domingos"</h3>
+                            <h4 class="product-old-price">$6500</h4>
+                            <h4 class="product-price">$4500</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-4" class="single-product">
+                        <div class="part-1">
+                            <span class="new">nueva temporada</span>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Canasto de fieltro "Meow"</h3>
+                            <h4 class="product-price">$3000</h4>
+                        </div>
+                    </div>
+                </div>
+              
+    <!-- Footer -->
+
     <footer class="text-center text-white" style="background-color: #0a4275;">
         <div class="container p-4 pb-0">
             <section class="">
-            <p class="d-flex justify-content-center align-items-center">
-                <span class="me-3">Descubri nuestras mejores ofertas</span>
-                <button type="button" class="btn btn-outline-light btn-rounded">Registrate!</button>
-            </p>
+                <p class="d-flex justify-content-center align-items-center">
+                    <span class="me-3">Descubri nuestras mejores ofertas</span>
+                    <button type="button" class="btn btn-outline-light btn-rounded">Registrate!</button>
+                </p>
         </div>
         <div class="text-center p-3 footer-color">© 2022 Copyright:
             <a class="text-white" href="https://instagram.com/objetos.babar">Objetos Babar</a>
         </div>
     </footer>
-    
-    
+
+
 
 
 
@@ -103,6 +199,9 @@
 
 
     <!--JS Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
