@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -11,16 +10,14 @@
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <script src="https://kit.fontawesome.com/f30a166a26.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/babar.png" alt="" width="30" height="24"
+            <a class="navbar-brand" href="#section1"><img src="img/logobabar.png" alt="" width="30" height="24"
                     class="d-inline-block align-text-top"></a>
-            <a class="navbar-brand" href="#">Objetos Babar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,13 +25,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes somos</a>
+                        <a class="nav-link" href="#catalogo">Objetos Babar</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#catalogo">Catalogo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Contacto</a>
+                        <a class="nav-link" href="#contacto1">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -43,45 +40,50 @@
     <!--HEADER-->
     <div class="p-5 text-center bg-image img-fondo">
         <div class="d-flex justify-content-center align-items-center h-100">
-            <div class="text-danger">
-                <h1 class="mb-3 ">Objetos Babar</h1>
-                <a class="btn btn-outline-light btn-lg btn btn-danger" href="#!" role="button">Descubrinos</a>
+            <div class="text-danger ">
+                <img src="img/obbab.png" class="img-fluid" alt="">
+                <br>
+                <a class="btn btn-outline-light btn-lg btn btn-danger" href="#section1" role="button">Descubrinos</a>
             </div>
         </div>
     </div>
-    <!--CAROUSEL-->
-    <div class="card-group">
-        <div class="card">
-            <img src="img/10.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">"Sale Netflix"</h5>
-                <p class="card-text">Preparate para disfrutar de las mejores tardes y noches con el clima ideal para ser
-                    vos.</p>
-                <p class="card-text"><small class="text-muted">Promocion vigente hasta 11/22</small></p>
+    <!--section-->
+    <div class="fondo-color text-light" id="section1">
+        <div class="container">
+            <div class="row featurette p-5">
+                <div class="col-md-6">
+                    <h2 class="featurette-heading">Diseños minimalistas <span class="text-muted"> cuando la armonia se
+                            presenta.</span></h2>
+                    <p class="lead">No solo creamos objetos dignos de admiraciön sino que tambien somos interpretes de
+                        tus ideas.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sed nisi, non nemo quod nesciunt
+                        odit in officia quos nulla similique eaque illo fuga itaque ipsa inventore, blanditiis est
+                        neque.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/z.png"
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" alt="">
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <img src="img/11.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">"Clasico 1"</h5>
-                <p class="card-text">Home Office? Si, tenes todo en un instante. Resolve y administra tu momento de la
-                    mejor manera.</p>
-                <p class="card-text"><small class="text-muted">Promocion vigente hasta 10/22</small></p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="img/14.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">"Meow"</h5>
-                <p class="card-text">Nunca viste a tus gatos tan felices. Eso es porque estan disfrutando un hermoso
-                    momento junto a su cueva hecha 100% a mano mediante tecnicas tradicionales y mucho amor</p>
-                <p class="card-text"><small class="text-muted">Promocion vigente hasta 09/22</small></p>
+            <div class="row featurette p-5 d-flex align-items-center">
+                <div class="col-md-6 order-md-2">
+                    <h2 class="featurette-heading">El elemento se transforma. <span class="text-muted">en icono central
+                            de tu espacio.</span></h2>
+                    <p class="lead">Necesitas mas informacion? Claro que si. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Hic iste accusantium provident dignissimos distinctio temporibus suscipit ab
+                        at delectus est quidem totam incidunt tenetur, praesentium quae dicta esse! Commodi, odit.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="img/3.png"
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto text-center"
+                        width="500" height="500" alt="">
+                </div>
             </div>
         </div>
     </div>
-
     <!--catalogo-->
-
     <section class="section-products" id="catalogo">
         <div class="container">
             <div class="row justify-content-center text-center">
@@ -89,7 +91,6 @@
                     <div class="header">
                         <h2>Catalogo</h2>
                         <h3>Ultimos lanzamientos</h3>
-
                     </div>
                 </div>
             </div>
@@ -166,42 +167,47 @@
                         </div>
                     </div>
                 </div>
-              
+            </div>
+        </div>
+    </section>
+    <!--Form-->
+    <section class="container-fluid img-form text-light" id="contacto1">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <form action="confirmation.html" onsubmit="return validation();"
+                class="col-xs-8 col-xs-offset-2  col-sm-6 col-sm-offset-3 col-md-4 col-sm-offset-4 col-lg-2 col-lg-offset-5 ">
+                <h1>Registrate a nuestro newsletter</h1>
+                <h2>y recibi un 40% de descuento.</h2>
+                <p>
+                    <label class="sr-only" for="">Nombre</label>
+                    <input class="form-control" type="text" placeholder="Nombre" name="fname" id="fname">
+                </p>
+                <p>
+                    <label class="sr-only" for="">Email Address</label>
+                    <input class="form-control" type="email" placeholder="Email Address"name="email" id="email">
+                </p>
+                <p class="checkbox">
+                    <label><input type="checkbox"> acepto terminos y condiciones</label>
+                </p>
+                <button class="btn btn-primary btn-block" type="sumbit">Continue</button>
+            </form>
+        </div>
+    </section>
     <!-- Footer -->
-
-    <footer class="text-center text-white" style="background-color: #0a4275;">
+    <footer class="text-center text-white" style="background-color: #000000;">
         <div class="container p-4 pb-0">
             <section class="">
                 <p class="d-flex justify-content-center align-items-center">
                     <span class="me-3">Descubri nuestras mejores ofertas</span>
-                    <button type="button" class="btn btn-outline-light btn-rounded">Registrate!</button>
+                    <a class="btn btn-outline-light btn btn-dark" href="#contacto1" role="button">Registrate</a>
                 </p>
         </div>
         <div class="text-center p-3 footer-color">© 2022 Copyright:
             <a class="text-white" href="https://instagram.com/objetos.babar">Objetos Babar</a>
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--JS Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
