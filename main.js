@@ -13,7 +13,11 @@ function validation() {
         return false
     }
     else {
+<<<<<<< HEAD
         alert("Muchas gracias, usted sera re dirijido");
+=======
+        alert("Por favor complete la informacion solicitaad");
+>>>>>>> ae1f9b6d7c679e21cdd6d85eebc9d1f5f4f8338f
 
     }
 };
